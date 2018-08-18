@@ -19,6 +19,8 @@ public class PruebaAdivinaNumero {
         
         AdivinaNumero adivinar = new AdivinaNumero();
         
+        adivinar.introduceNombre();
+        
         adivinar.imprimeResultados();
         
     }
