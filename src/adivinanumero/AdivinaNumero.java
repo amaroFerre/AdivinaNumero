@@ -27,7 +27,7 @@ public class AdivinaNumero {
        
        introduceNombre();
        
-       introduceNumero();
+       
        
        imprimeResultados();
         
@@ -40,10 +40,7 @@ public class AdivinaNumero {
        nombre = entrada.nextLine();
    }
    
-   public void introduceNumero(){
-       
-      
-   }
+   
    
    public void imprimeResultados() {
        
@@ -66,7 +63,7 @@ public class AdivinaNumero {
                contador++;
            }else
                
-               System.out.println("Muy bien"+ nombre+" has acertado el número en "+ contador + " intentos");
+               System.out.println("Muy bien "+ nombre+" has acertado el número en "+ contador + " intentos");
        }while (numero!= numeroIntroducido);
    }
     
